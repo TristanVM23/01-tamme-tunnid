@@ -6,11 +6,22 @@ body {
 }
 
 main {
-    background-color: rgb(3, 130, 139);
+    background-color: rgb(21, 69, 227);
     max-width: 80ch;
     width: 100%;
 }
 
 .card-row {
     display: flex;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(208, 196, 24);
+}
+
+.hero-content {
+    /* margin: 0 auto; */
+    width: 75ch;
 }
