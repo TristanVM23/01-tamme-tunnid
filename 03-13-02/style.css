@@ -3,22 +3,32 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding: 1rem;
 }
 
 main {
-    background-color: rgb(21, 69, 227);
-    max-width: 80ch;
-    width: 100%;
+    background-color: rgb(13, 214, 204);
+    max-width: 56rem;
+    width: 100vh;
 }
+
 
 .card-row {
     display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
+
+.card {
+    min-width: 18rem;
+    flex: 1;
+}
+ 
 
 .hero-container {
     display: flex;
     justify-content: center;
-    background-color: rgb(208, 196, 24);
+    background-color: rgb(217, 9, 168);
 }
 
 .hero-content {
