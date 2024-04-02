@@ -2,33 +2,37 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     padding: 1rem;
+    box-sizing: border-box;
 }
 
 main {
     background-color: rgb(13, 214, 204);
     max-width: 56rem;
-    width: 100vh;
+    width: 100%;
+    padding: 1rem;
 }
 
 
 .card-row {
+    background-color: blue;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
 }
 
 .card {
-    min-width: 18rem;
     flex: 1;
+    min-width: 18rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: aqua;
 }
  
 
 .hero-container {
-    display: flex;
     justify-content: center;
-    background-color: rgb(217, 9, 168);
 }
 
 .hero-content {
