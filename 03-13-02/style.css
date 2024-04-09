@@ -48,8 +48,7 @@ main {
 
 .caveat-uniquifier {
   font-family: "Caveat", cursive;
-  font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: 400;
   font-style: normal;
 }
   
