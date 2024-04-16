@@ -1,8 +1,37 @@
-.header-box {
-    width: 100%;
-    background-color: rgb(80, 80, 80);
+header {
+    height: 6rem
 }
 
 .pealkiri {
-color: azure;
+color: rgb(0, 0, 0);
+font-size: 26px
+}
+
+.kirjeldus {
+    color: rgb(116, 116, 116);
+    font-size: 12px
+}
+
+
+.pealkirifont {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+
+.kirjeldusfont {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.horsepower {
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
 }
