@@ -1,19 +1,19 @@
-header {
+header{
     height: 6rem
 }
 
-.pealkiri {
+.pealkiri{
 color: rgb(0, 0, 0);
 font-size: 26px
 }
 
-.kirjeldus {
+.kirjeldus{
     color: rgb(116, 116, 116);
     font-size: 12px
 }
 
 
-.pealkirifont {
+.pealkirifont{
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
@@ -21,7 +21,7 @@ font-size: 26px
   }
 
 
-.kirjeldusfont {
+.kirjeldusfont{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -31,7 +31,40 @@ font-size: 26px
 }
 
 
-.horsepower {
+.horsepower{
     color: rgb(0, 0, 0);
     letter-spacing: 2px;
+}
+
+
+.logo-image{
+margin-left: -2.3rem;
+}
+
+
+.banner-card{
+  background-image: url(pildid/Audi_RS6_Avant_Web_Mobile_700x700-a62d94d6.jpeg);
+  height: 50vh;
+  background-size: cover;
+  background-position: 0% 45%;
+}
+
+
+.banner-text{
+ color: #fff;
+ padding: 10px;
+ padding-left: 30px;
+}
+
+
+.banner-text h1{
+font-size: 70px;
+font-family: mako;
+}
+
+
+.banner-text p{
+  margin-top: -2rem;
+  font-size: 25px;
+  font-family: gilda display;
 }
