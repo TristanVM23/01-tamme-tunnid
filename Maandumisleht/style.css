@@ -1,4 +1,6 @@
 header{
+  display: flex;
+  flex-wrap: wrap;
     height: 6rem
 }
 
@@ -26,14 +28,7 @@ font-size: 26px
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
-
-.horsepower{
-    color: rgb(0, 0, 0);
-    letter-spacing: 2px;
+  font-variation-settings: "wdth" 100;
 }
 
 
@@ -137,7 +132,7 @@ section {
 
 h2 {
   color: #000000;
-  font-size: 45px;
+  font-size: 60px;
   font-family: "Fira Sans"
 }
 
@@ -152,17 +147,114 @@ footer {
   width: 100%;
 }
 
+.engine-pilt  {
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+}
+
 
 .performance-pilt {
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
+  height: 100%;
 }
 
 
 .design-pilt {
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
 }
 
 
 .features-pilt {
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
+  height: 100%;
 }
+
+
+.div1 {
+  width: 115.09px;
+  height: 31px;
+  left: 223.11px;
+  top: 32px;
+  position: absolute;
+  color: #8D8D8D;
+  font-size: 30px;
+  font-family: Inter;
+  font-weight: 600;
+  word-wrap: break-word
+}
+
+
+.div2 {
+  width:83.79px;
+  height: 31px;
+  left: 373.54px;
+  top: 32px;
+  position: absolute;
+  color: #8D8D8D;
+  font-size: 30px;
+  font-family: Inter;
+  font-weight: 600;
+  word-wrap: break-word
+}
+
+
+.div3  {
+  width: 74.71px;
+  height: 31px;
+  left: 492.66px;
+  top: 32px;
+  position: absolute;
+  color: #8D8D8D;
+  font-size: 30px;
+  font-family: Inter;
+  font-weight: 600;
+  word-wrap: break-word
+}
+
+
+.div4  {
+  width:134.27px;
+  height: 31px;
+  left: 602.71px;
+  top: 32px;
+  position: absolute;
+  color: #8D8D8D;
+  font-size: 30px;
+  font-family: Inter;
+  font-weight: 600;
+  word-wrap: break-word
+}
+
+
+.engine-text  {
+  padding-right: 48%;
+  font-size: 25px;
+}
+
+
+.performance-text  {
+  padding-right: 45%;
+  font-size: 25px;
+}
+
+
+.design-text  {
+  padding-right: 50%;
+  font-size: 25px;
+}
+
+
+.features-text  {
+  font-size: 30px;
+}
+
+
+.features-text-list  {
+  font-size: 25px;
+}
+
